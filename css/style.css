@@ -1,0 +1,193 @@
+.root{
+	max-width: 640px;
+	height: 100vh;
+	background: yellow;
+	margin: 0 auto;
+	position: relative;
+}
+.head{
+	width: 100%;
+	height: 2.12rem;
+	padding: 0 0.38rem;
+	box-sizing: border-box;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #f2f2f2;
+	z-index: 999;
+}
+.head-top{
+	width: 100%;
+	height: 1.22rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.mi-logo{
+	width: 0.74rem;
+	height: 0.49rem;
+	background: url(data:image/png;base64,iVBORw0KGgo
+						AAAANSUhEUgAAAEwAAAAyCAYAAAD2vz2aAAAAGXRFWH
+						RTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA
+						yhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBh
+						Y2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh
+						6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbn
+						M6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb
+						2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwg
+						MjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJ
+						kZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm
+						9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gP
+						HJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1s
+						bnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8
+						xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2
+						JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9I
+						mh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlw
+						ZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0i
+						QWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHh
+						tcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjQ2OUE2MkU0RTQ4M
+						TFFNzgxOTZBRDJFQjk4Qjk0NjQiIHhtcE1NOkRvY3VtZW50SUQ9
+						InhtcC5kaWQ6MjQ2OUE2MkY0RTQ4MTFFNzgxOTZBRDJFQjk4Qjk
+						0NjQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2
+						VJRD0ieG1wLmlpZDpCOUQ0QkM2RjREQ0MxMUU3ODE5NkFEMkVCOT
+						hCOTQ2NCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpCOUQ0Qk
+						M3MDREQ0MxMUU3ODE5NkFEMkVCOThCOTQ2NCIvPiA8L3JkZjpEZX
+						NjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cG
+						Fja2V0IGVuZD0iciI/PiL8gcIAAAF1SURBVHja7Ju/LwRRFEbf+FV
+						sQ0dBdJKNSksUSqVCr6AhKxGVwn+gVUpQEI1So5XoZUOhEbKMDiE
+						SIeOTzPbvzpoxz5wvOd3duzsn++7cSXajZMU9OOeGXPmTiHtxIU7
+						FoYh/oe+ZmPKsjSMJS1yY+RS7YrNDcTdi1Le4y4WbHrEorsRcUW8a
+						srB2BsSxWEeYLVtiCWG2bIsJhPmnV+zkeV3/TZhLv2HzCLNlFWG2T
+						IqRvHYZa97FR84XXEvnUSeZEft/LexZDIvXnIVFop6uCQ3RnaHHeB
+						mO5FMBstrPjZdiTUyLlww9Bqs6w87FcobX9Vd56B+IZoZjXVlhP0f
+						0qAwfJKS1ookw+w0HYaEFYQVs+j4ZE7Oed6o3sVfA00OphW2IBUN9S
+						5xU+Uhad6A+ZhhDnyAMYQhDGMIQRhCGMIQhDGEEYQhDGMIQhjCCMIQ
+						hDGEIIwhDWFHCLP81vPOsezT0/BK3nj0tP1i59qxrGXrG3wIMAK5yNs
+						qRAjAyAAAAAElFTkSuQmCC")no-repeat center center 100% auto;
+}
+.mi-logo>img{
+	width: 0.74rem;
+	height: 0.49rem;
+	display: block;
+
+}
+.search{
+	width: 7.74rem;
+	height: 0.9rem;
+	background: #fff;
+	box-shadow: 0.01rem 0.01rem 0.05rem 0.05rem #cac2c2;
+	display: flex;
+	
+}
+.search>img{
+	width: 0.38rem;
+	height: 0.38rem;
+	padding-left: 0.26rem;
+	color: #d5d5d5;
+}
+.search>span{
+	font-size: 0.42rem;
+	line-height: 0.9rem;
+	color: #d5d5d5;
+	
+}
+.my-center{
+	width: 0.56rem;
+	height: 0.56rem;
+	background: yellow;
+}
+.my-center>img{
+	width: 0.56rem;
+	height: 0.56rem;
+
+}
+.head-bottom{
+	width: 100%;
+	height: 0.9rem;
+	background: chartreuse;
+	display: flex;
+	justify-content: space-between;
+}
+.head-bottom>div>ul>li{
+	font-size: 0.36rem;
+	color: #727272;
+	line-height: 0.9rem;
+	padding: 0 0.4rem;
+	display: flex;
+}
+ul,li{
+	list-style: none;
+}
+.head-bottom .fenlei{
+	width: 9.15rem;
+	height: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow: hidden;
+}
+.head-bottom>div>ul{
+	height: 100%;
+	width: 200%;
+}
+.head-bottom .xiala{
+	width: 0.4rem;
+	height: 100%;
+	background: red;
+}
+/* ad开始 */
+.ad{
+	width: 100%;
+	height: 5.38rem;
+	background: url(https://i8.mifile.cn/v1/a1/c39a9ca3-d498-2a5e-731a-22cdd0f160e5!720x360.webp);
+	padding-top: 2.12rem;
+}
+.ad>img{
+	width: 100%;
+	height: 5.38rem;
+}
+/* ad结束 */
+
+/* 菜单开始 */
+.menu{
+	width: 100%;
+	height: 4.58rem;
+	position: absolute;
+	left: 0;
+	top: 7.5rem;
+}
+.menu>ul{
+	width: 100%;
+	height: 4.58rem;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.menu>ul>li{
+	width: 20%;
+	height: 50%;
+	background: url(https://i8.mifile.cn/v1/a1/01e0772b-fcd9-6e03-cdf3-9bd08b2d2974!144x152.webp)no-repeat center center 100% auto;
+}
+/* 菜单结束 */
+
+/* 楼层开始 */
+
+/* 楼层结束 */
+
+/* foot开始 */
+.foot{
+	width: 100%;
+	height: 1.42rem;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.foot>ul{
+	width: 100%;
+	height: 100%;
+	background: grey;
+}
+.foot>ul>li{
+	width: 25%;
+	height: 100%;
+}
+/* foot结束 */
