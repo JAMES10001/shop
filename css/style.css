@@ -96,9 +96,9 @@
 	background: yellow;
 }
 .my-center>img{
-	width: 0.56rem;
-	height: 0.56rem;
-
+	width: 100%;
+	height: 100%;
+    display: block;
 }
 .head-bottom{
 	width: 100%;
@@ -120,13 +120,14 @@ ul,li{
 .head-bottom .fenlei{
 	width: 9.15rem;
 	height: 100%;
-	display: flex;
 	flex-wrap: nowrap;
 	overflow: hidden;
 }
 .head-bottom>div>ul{
 	height: 100%;
 	width: 200%;
+	display: flex;
+    align-items: center;
 }
 .head-bottom .xiala{
 	width: 0.4rem;
@@ -159,16 +160,25 @@ ul,li{
 	height: 4.58rem;
 	display: flex;
 	flex-wrap: wrap;
-	
 }
 .menu>ul>li{
 	width: 20%;
 	height: 50%;
-	background: url(https://i8.mifile.cn/v1/a1/01e0772b-fcd9-6e03-cdf3-9bd08b2d2974!144x152.webp)no-repeat center center 100% auto;
+	background: red;
 }
+.menu>ul>li>img{
+	width: 100%;
+	height: 100%;
+}
+
 /* 菜单结束 */
 
 /* 楼层开始 */
+.floor floor-top{
+	width: 100%;
+	height: 0.26rem;
+	background: red;
+}
 
 /* 楼层结束 */
 
@@ -180,6 +190,7 @@ ul,li{
 	position: absolute;
 	left: 0;
 	bottom: 0;
+	z-index: 800;
 }
 .foot>ul{
 	width: 100%;
